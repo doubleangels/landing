@@ -1,1 +1,5 @@
-export default { output: 'export' };
+export default {
+  output: 'export',
+  reactStrictMode: true,
+  experimental: { inlineCss: true },
+};
